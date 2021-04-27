@@ -8,6 +8,11 @@ multibranchPipelineJob(project_name) {
             remote(repo)
             includes('develop')
         }
+        git {
+            id(project_name)
+            remote(repo)
+            includes('master')
+        }
     }
     orphanedItemStrategy {
         discardOldItems {
