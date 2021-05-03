@@ -1,4 +1,4 @@
-project_name = "Caoba-test"
+project_name = "caoba-test"
 repo = "git@github.com:jeicopercy/" + project_name + ".git"
 
 multibranchPipelineJob(project_name) {
